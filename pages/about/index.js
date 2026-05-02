@@ -18,9 +18,108 @@ function About() {
 
   const backgroundVideo = "/bgVid.webm";
 
+  // Current members data
+  const currentMembers = [
+    {
+      name: "Divyansh Pathak",
+      role: "President",
+      imgSrc: "/Divyansh1.jpg",
+      linkedIn: "https://www.linkedin.com/in/divyansh-pathak/",
+    },
+
+    {
+      name: "Parag Bhat",
+      role: "Vice President",
+      imgSrc: "/parag.jpeg",
+      linkedIn: "https://www.linkedin.com/in/parag-bhat-45364a239/",
+    },
+    {
+      name: "Bhoomi Ramdurgekar",
+      role: "Secretary",
+      imgSrc: "/logo2.png",
+      linkedIn: "https://www.linkedin.com/in/bhoomi-ramdurgekar-6a063032b/",
+    },
+    {
+      name: "Payal Bhavsar",
+      role: "Secretary",
+      imgSrc: "/logo2.png",
+      linkedIn: "https://www.linkedin.com/in/payal-bhavsar-759a07331/",
+    },
+    {
+      name: "Mahek Shukla",
+      role: "Technical Head",
+      imgSrc: "/Mahek_Shukla.jpeg",
+      linkedIn: "https://www.linkedin.com/in/mahek-shukla-technophile",
+    },
+    {
+      name: "Nishtha M",
+      role: "Content Head",
+      imgSrc: "/nishtha.jpg",
+      linkedIn:
+        "https://www.linkedin.com/in/nishtha-pharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+      name: "Aparna More",
+      role: "Design Head",
+      imgSrc: "/aparna.jpeg",
+      linkedIn: "https://www.linkedin.com/in/aparna-more-87b71532b/",
+    },
+    {
+      name: "Aditya Mali",
+      role: "Media Head",
+      imgSrc: "/aditya.jpeg",
+      linkedIn: "linkedin.com/in/aditya-mali-info",
+    },
+    {
+      name: "Ksheeraja Alegaonkar",
+      role: "Events and Ops Head",
+      imgSrc: "/ksheeraja.jpeg",
+      linkedIn:
+        "https://www.linkedin.com/in/ksheeraja-alegaonkar-988249318?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    },
+    {
+      name: "Soham Dengale",
+      role: "Project Head",
+      imgSrc: "/soham.jpeg",
+      linkedIn: "https://www.linkedin.com/in/soham-dengale-a1b741289/",
+    },
+    {
+      name: "Aditya Mahamuni",
+      role: "Project Head",
+      imgSrc: "/Aditya_M.jpg",
+      linkedIn: "https://www.linkedin.com/in/adityamahamuni/",
+    },
+  ];
+
   // Past members data
   const pastMembers = [
+    {
+      name: "Soham Mhatre",
+      role: "Treasurer",
+      imgSrc: "/soham.jpg",
+      linkedIn:
+        "https://www.linkedin.com/in/soham-mhatre-125700373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
 
+    {
+      name: "Kushagra Singh",
+      role: "Technical Head",
+      imgSrc: "/Kush.jpg",
+      linkedIn: "https://www.linkedin.com/in/kushagra-anit-singh/",
+    },
+    {
+      name: "Taksh Dhabalia",
+      role: "Technical Head",
+      imgSrc: "/taksh.jpeg",
+      linkedIn: "https://www.linkedin.com/in/taksh-dhabalia-2b6969202/",
+    },
+
+    {
+      name: "Samanyu Bhate",
+      role: "Technical Head",
+      imgSrc: "/samanyu.jpg",
+      linkedIn: "https://www.linkedin.com/in/samanyu-bhate-17136b1ab/",
+    },
     {
       name: "Lakshman Gopal",
       role: "Design Team Member",
@@ -38,29 +137,25 @@ function About() {
       name: "Namra Doshi",
       role: "Vice President",
       imgSrc: "/namra.jpeg",
-      linkedIn:
-        "https://www.linkedin.com/in/namra-doshi-445976249/",
+      linkedIn: "https://www.linkedin.com/in/namra-doshi-445976249/",
     },
     {
       name: "Raghunandan Veer",
       role: "Founder",
       imgSrc: "/logo2.png",
-      linkedIn:
-        "https://www.linkedin.com/in/raghunandan-veer-31b724266/",
+      linkedIn: "https://www.linkedin.com/in/raghunandan-veer-31b724266/",
     },
     {
       name: "Durgesh Deore",
       role: "Founder",
       imgSrc: "/durgesh.jpg",
-      linkedIn:
-        "https://www.linkedin.com/in/durgesh-deore-74a75a281/",
+      linkedIn: "https://www.linkedin.com/in/durgesh-deore-74a75a281/",
     },
     {
       name: "Kavish Jain",
       role: "Founder",
       imgSrc: "/kavish.jpeg",
-      linkedIn:
-        "https://www.linkedin.com/in/kavish-jain-38b812247/",
+      linkedIn: "https://www.linkedin.com/in/kavish-jain-38b812247/",
     },
     {
       name: "Chinmay Huddar",
@@ -76,18 +171,22 @@ function About() {
       linkedIn: "https://www.linkedin.com/in/dhyey-ladani/",
     },
     {
+      name: "Bhavya Rana",
+      role: "Marketing Head",
+      imgSrc: "/logo2.png",
+      linkedIn: "#",
+    },
+    {
       name: "Brandon Cerejo",
       role: "Treasurer",
       imgSrc: "/Brandon.jpg",
-      linkedIn:
-        "https://www.linkedin.com/in/brandon-cerejo-921275247/",
+      linkedIn: "https://www.linkedin.com/in/brandon-cerejo-921275247/",
     },
     {
       name: "Surendra Rajawat",
       role: "Content Management Head",
       imgSrc: "/surendra.jpg",
-      linkedIn:
-        "https://www.linkedin.com/in/surendra-rajawat-b16807322/",
+      linkedIn: "https://www.linkedin.com/in/surendra-rajawat-b16807322/",
     },
     {
       name: "Richa Shukla",
@@ -100,8 +199,7 @@ function About() {
       name: "Manasee Ambhore",
       role: "Sponsorship Head",
       imgSrc: "/manasee.jpg",
-      linkedIn:
-        "https://www.linkedin.com/in/manasee-ambhore-87ab65287/",
+      linkedIn: "https://www.linkedin.com/in/manasee-ambhore-87ab65287/",
     },
     {
       name: "Aaryan Joshi",
@@ -120,10 +218,8 @@ function About() {
       name: "Sarthak Patil",
       role: "Founder",
       imgSrc: "/sarthak.jpeg",
-      linkedIn:
-        "https://www.linkedin.com/in/sarthak-patil-aa453a219/",
-    }, 
-    
+      linkedIn: "https://www.linkedin.com/in/sarthak-patil-aa453a219/",
+    },
   ];
 
   return (
@@ -275,146 +371,7 @@ function About() {
           <div id="team-members" className={`${styles.teamMembers} py-4`}>
             <h2>Team Members</h2>
             <div className="row gx-2 gy-3">
-              {[
-
-                {
-                  name: "Riya Kondawar",
-                  role: "President",
-                  imgSrc: "/Riya.jpg",
-                  linkedIn: "https://www.linkedin.com/in/riyakondawar/",
-                },
-
-                {
-                  name: "Kaustubha M",
-                  role: "Vice President",
-                  imgSrc: "/kawas.jpeg",
-                  linkedIn: "https://www.linkedin.com/in/kawas-nandan/",
-                },
-
-                {
-                  name: "Arya Kale",
-                  role: "Secretary",
-                  imgSrc: "/logo2.png",
-                  linkedIn: "https://www.linkedin.com/in/arya-kale-13129732a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                },
-
-                {
-                  name: "Soham Mhatre",
-                  role: "Treasurer",
-                  imgSrc: "/soham.jpg",
-                  linkedIn:
-                    "https://www.linkedin.com/in/soham-mhatre-125700373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                },
-               
-                {
-                  name: "Kushagra Singh",
-                  role: "Technical Head",
-                  imgSrc: "/Kush.jpg",
-                  linkedIn: "https://www.linkedin.com/in/kushagra-anit-singh/",
-                },
-                {
-                  name: "Taksh Dhabalia",
-                  role: "Technical Head",
-                  imgSrc: "/taksh.jpeg",
-                  linkedIn:
-                    "https://www.linkedin.com/in/taksh-dhabalia-2b6969202/",
-                },
-               
-                {
-                  name: "Samanyu Bhate",
-                  role: "Technical Head",
-                  imgSrc: "/samanyu.jpg",
-                  linkedIn:
-                    "https://www.linkedin.com/in/samanyu-bhate-17136b1ab/",
-                },
-
-                {
-                  name: "Divyansh Pathak",
-                  role: "Project Head",
-                  imgSrc: "/divyansh.jpg",
-                  linkedIn: "https://www.linkedin.com/in/divyansh-pathak/",
-                },
-                {
-                  name: "Mahek Shukla",
-                  role: "Project Head",
-                  imgSrc: "/Mahek_Shukla.jpeg",
-                  linkedIn: "https://www.linkedin.com/in/mahek-shukla-technophile",
-                },
-                {
-                  name: "Namrata Mankar",
-                  role: "Media Head",
-                  imgSrc: "/logo2.png",
-                  linkedIn: "#",
-                },
-                {
-                  name: "Aakanksha Pansare",
-                  role: "Events-Ops Head",
-                  imgSrc: "/aakanksha1.jpg",
-                  linkedIn: "#",
-                },
-                /*{
-                  name: "Natasha Chavan",
-                  role: " Marketing Lead",
-                  imgSrc: "/logo2.png",
-                  linkedIn: "#",
-                },*/
-                {
-                  name: "Archana Sonakul",
-                  role: "Design Head",
-                  imgSrc: "/Archana Sonakul.jpg",
-                  linkedIn:
-                    "https://in.linkedin.com/in/archana-sonakul-588794305",
-                },
-
-                {
-                  name: "Bhavya Rana",
-                  role: "Marketing Head",
-                  imgSrc: "/logo2.png",
-                  linkedIn: "#",
-                },
-                {
-                  name: "Parag Bhat",
-                  role: "Research Head",
-                  imgSrc: "/parag.jpg",
-                  linkedIn: "https://www.linkedin.com/in/parag-bhat-1b92ab330/",
-                },
-                {
-                  name: "Nishtha M",
-                  role: "Content Head",
-                  imgSrc: "/nishtha.jpg",
-                  linkedIn:
-                    "https://www.linkedin.com/in/nishtha-pharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                },
-
-                {
-                  name: "Purva Rana",
-                  role: "Technical Advisor",
-                  imgSrc: "/Purva.jpg",
-                  linkedIn: "https://www.linkedin.com/in/purva-rana/",
-                },
-                
-                {
-                  name: "Shourya Gurjar",
-                  role: "Website Team Member",
-                  imgSrc: "/logo2.png",
-                  linkedIn: "https://www.linkedin.com/in/shourya-gurjar-1b5317305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-                },
-          
-                {
-                  name: "Aditya",
-                  role: "Website Team Member",
-                  imgSrc: "/Aditya_M.jpg",
-                  linkedIn: "https://www.linkedin.com/in/adityamahamuni/",
-                },
-                {
-                  name: "Siya Shaha",
-                  role: "Website Team Member",
-                  imgSrc: "/siya.jpg",
-                  linkedIn: "https://www.linkedin.com/in/siya-shaha-5bb3822b4/",
-                },          
-
-
-              ].map((member, index) => (
+              {currentMembers.map((member, index) => (
                 <div key={index} className="col-6 col-sm-6 col-lg-4">
                   <div className={styles.card}>
                     <div className={styles.topCard}>
@@ -462,15 +419,21 @@ function About() {
                 aria-expanded={isPastMembersExpanded}
               >
                 <span className={styles.toggleText}>
-                  {isPastMembersExpanded ? "Hide Past Members" : "Show Past Members"}
+                  {isPastMembersExpanded
+                    ? "Hide Past Members"
+                    : "Show Past Members"}
                 </span>
-                <span className={`${styles.arrow} ${isPastMembersExpanded ? styles.arrowUp : styles.arrowDown}`}>
+                <span
+                  className={`${styles.arrow} ${isPastMembersExpanded ? styles.arrowUp : styles.arrowDown}`}
+                >
                   <ChevronDownIcon />
                 </span>
               </button>
             </div>
-            
-            <div className={`${styles.pastMembersContent} ${isPastMembersExpanded ? styles.expanded : styles.collapsed}`}>
+
+            <div
+              className={`${styles.pastMembersContent} ${isPastMembersExpanded ? styles.expanded : styles.collapsed}`}
+            >
               <div className="row gx-2 gy-3">
                 {pastMembers.map((member, index) => (
                   <div key={index} className="col-6 col-sm-6 col-lg-4">
@@ -492,7 +455,9 @@ function About() {
                       </div>
                       <div className={styles.bottomCard}>
                         <div className={styles.cardContent}>
-                          <span className={styles.cardTitle}>{member.name}</span>
+                          <span className={styles.cardTitle}>
+                            {member.name}
+                          </span>
                           <p className={styles.cardTxt}>{member.role}</p>
                           <a
                             href={member.linkedIn}
