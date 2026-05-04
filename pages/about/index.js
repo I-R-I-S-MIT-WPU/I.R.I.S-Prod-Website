@@ -34,9 +34,9 @@ function About() {
       linkedIn: "https://www.linkedin.com/in/parag-bhat-45364a239/",
     },
     {
-      name: "Bhoomi Ramdurgekar",
+      name: "Bhoomi R",
       role: "Secretary",
-      imgSrc: "/logo2.png",
+      imgSrc: "/bhoomi.jpeg",
       linkedIn: "https://www.linkedin.com/in/bhoomi-ramdurgekar-6a063032b/",
     },
     {
