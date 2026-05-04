@@ -41,8 +41,8 @@ function About() {
     },
     {
       name: "Payal Bhavsar",
-      role: "Secretary",
-      imgSrc: "/logo2.png",
+      role: "Treasurer",
+      imgSrc: "/payal.jpeg",
       linkedIn: "https://www.linkedin.com/in/payal-bhavsar-759a07331/",
     },
     {
@@ -50,6 +50,12 @@ function About() {
       role: "Technical Head",
       imgSrc: "/Mahek_Shukla.jpeg",
       linkedIn: "https://www.linkedin.com/in/mahek-shukla-technophile",
+    },
+    {
+      name: "Bhavya Rana",
+      role: "Marketing Head",
+      imgSrc: "/Bhavya.jpeg",
+      linkedIn: "#",
     },
     {
       name: "Nishtha M",
@@ -94,24 +100,16 @@ function About() {
   // Past members data
   const pastMembers = [
     {
-      name: "Soham Mhatre",
-      role: "Treasurer",
-      imgSrc: "/soham.jpg",
-      linkedIn:
-        "https://www.linkedin.com/in/soham-mhatre-125700373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      name: "Taksh Dhabalia",
+      role: "President",
+      imgSrc: "/taksh.jpeg",
+      linkedIn: "https://www.linkedin.com/in/taksh-dhabalia-2b6969202/",
     },
-
     {
       name: "Kushagra Singh",
       role: "Technical Head",
       imgSrc: "/Kush.jpg",
       linkedIn: "https://www.linkedin.com/in/kushagra-anit-singh/",
-    },
-    {
-      name: "Taksh Dhabalia",
-      role: "Technical Head",
-      imgSrc: "/taksh.jpeg",
-      linkedIn: "https://www.linkedin.com/in/taksh-dhabalia-2b6969202/",
     },
 
     {
@@ -169,12 +167,6 @@ function About() {
       role: "Founder",
       imgSrc: "/dhyey.jpg",
       linkedIn: "https://www.linkedin.com/in/dhyey-ladani/",
-    },
-    {
-      name: "Bhavya Rana",
-      role: "Marketing Head",
-      imgSrc: "/logo2.png",
-      linkedIn: "#",
     },
     {
       name: "Brandon Cerejo",
